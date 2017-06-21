@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{f3a3a9fb-5b11-49b6-82bd-8663536947a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="controller.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="output.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="trackerconnector.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\data.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\log.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\MemPipe.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\msg_ack.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\msg_data.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\msg_spread.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\msg_tree.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\os_functions.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\socket_functions_lin.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\stringtools.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\symmatrix.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\tcpstack.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\uppermatrix.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="controller.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="output.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="trackerconnector.h">
+      <Filter>Quelldateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\data.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\log.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\MemPipe.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\msg_ack.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\msg_data.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\msg_spread.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\msg_tree.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\os_functions.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\packet_ids.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\Pipe.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\settings.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\socket_functions.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\socket_header.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\stringtools.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\symmatrix.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\tcpstack.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\types.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\uppermatrix.h">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

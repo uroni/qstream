@@ -1,0 +1,14 @@
+typedef unsigned char UCHAR;
+
+
+const UCHAR TRACKER_PING=0;
+const UCHAR TRACKER_PONG=1;
+const UCHAR TRACKER_TREE=2;
+const UCHAR TRACKER_PORT=3;
+const UCHAR TRACKER_ACK=4;
+const UCHAR TRACKER_NACK=5;
+
+
+const UCHAR CC_DATA=0;
+const UCHAR CC_ACK=1;
+const UCHAR CC_SPREAD=2;
